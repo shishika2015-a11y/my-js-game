@@ -2,12 +2,25 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>音つき占い</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>すずちゃんの本格占い</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>占い</h1>
-<button onclick="fortune()">占う</button>
+<h1 class="title">🔮 すずちゃんの本格占い</h1>
+<p class="subtitle">〜闇と星が告げる今日の運命〜</p>
+
+<hr>
+
+<h2>今日の運勢</h2>
+
+<input type="text" id="name" placeholder="名前を入力">
+<button id="fortuneBtn">占う</button>
+
+<div id="result"></div>
+
+<canvas id="confetti"></canvas>
 
 <script src="script.js"></script>
 </body>
