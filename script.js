@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const sounds = {
     "大吉": new Audio("daikichi.mp3"),
     "中吉": new Audio("chukichi.mp3"),
-    "小吉": new Audio("shokichi.mp3"),
+    "小吉": new Audio("shokichi.m4a"),
     "吉": new Audio("kichi.mp3"),
     "凶": new Audio("kyo.mp3"),
     "SSR": new Audio("ssr.mp3")
@@ -168,3 +168,4 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 });
+
